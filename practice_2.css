@@ -66,17 +66,19 @@ html,body{
     position: relative;
     top: 20px;
     bottom: 20px;
-    width: 600px;
+    min-width: 300px;
+    max-width: 1800px;
     height: auto;
     background-color: rgb(207, 128, 24);
     display: grid;
     gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr ;
-    overflow: hidden;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+
+    
 }
 .card{
-    /* width: 200;*/
+    /* min-width: 200px; */
+    /* max-width: max-content; */
     height: 285px;
     background-color: rgb(224, 183, 130);
     /* display: flex;
@@ -162,5 +164,6 @@ html,body{
     background-image: url(https://comicvine.gamespot.com/a/uploads/scale_small/11/114183/5207318-483dialga.png);
 
 }
+
 
 
