@@ -61,7 +61,7 @@ html,body{
     0% {left: 0px;}
     100% {left: calc(100% - 50px);}    
 }
-/* .grid{
+.grid{
     padding: 10px;
     position: relative;
     top: 20px;
@@ -71,10 +71,10 @@ html,body{
     background-color: rgb(207, 128, 24);
     display: grid;
     gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr ;
     overflow: hidden;
-} */
+}
 .card{
     /* width: 200;*/
     height: 285px;
@@ -162,3 +162,4 @@ html,body{
     background-image: url(https://comicvine.gamespot.com/a/uploads/scale_small/11/114183/5207318-483dialga.png);
 
 }
+
