@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    width: 100%;
+    background-color: aqua;
+    border-radius: 5px;
+    border: solid 3px;
+}
+.nav1{
+    width: max-content;
+    height: 80px;
+    border: solid;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    position: relative;
+    animation-name: walk-across;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#container{
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+}
+.nav2{
+    width: 100%;
+    background-color: aqua;
+    border-radius: 5px;
+    border: solid 3px;
+    position: relative;
+    top: 40px;
+}
+.nav3{
+    width: max-content;
+    height: 80px;
+    border: solid;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    position: relative;
+    animation-name: walk-across;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes walk-across {
+    0% {left: 0px;}
+    100% {left: calc(100% - 50px);}    
+}
+.grid{
+    padding: 10px;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    width: 600px;
+    height: auto;
+    background-color: rgb(207, 128, 24);
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    overflow: hidden;
+}
+.card{
+    /* width: 200;*/
+    height: 285px;
+    background-color: rgb(224, 183, 130);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+.img{
+    width: 100%;
+    height:92%;
+
+    background-size: cover;
+    background-position: center;
+}
+.con{
+    width: 100%;
+    height: 8%;
+}
+.conn{
+    border:ridge black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    width: max-content ;
+    height: 100%;
+    font-size: 21px;
+    font-weight: 1000;
+    color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation-name: walks-across;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes walks-across {
+    0% {left: 0px;}
+    100% {left: calc(100% - 78px);}    
+}
+
+#img1{
+    background-image: url(https://i5.walmartimages.com/seo/Pokemon-TV-Show-Gaming-Poster-Pikachu-Jumping-Size-24-X-36_baa4a13a-5ff2-4c2e-8816-7facb68ad317.aabcc7975ed3afb1d02f53ed1269ac63.jpeg);
+}
+#img2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYk9Rqp4vplzi_geXuNNudMcaNkUw6v2mTtQ&s);
+}
+#img3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr5hak43jN07NQ8ww_mokOnGutF-0fX86w-g&s);
+
+}
+#img4{
+    background-image: url(https://i0.wp.com/thegameofnerds.com/wp-content/uploads/2018/03/escapistmagazine-com.png?fit=642%2C880&ssl=1);
+
+}
+#img5{
+    background-image: url(https://preview.redd.it/g8to5cyg3snz.jpg?width=640&crop=smart&auto=webp&s=868712abd5cc0f434b82f39d2b79fe736255def8);
+
+}
+#img6{
+    background-image: url(https://i.pinimg.com/736x/93/b5/dc/93b5dc2287d48a76e682e784a0d3ffb6.jpg);
+
+}
+#img7{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPHeUbV4nRJ9PidTSMTabXcAPtXpCy8DHTfQ&s);
+
+}
+#img8{
+    background-image: url(https://i.pinimg.com/originals/fe/57/c6/fe57c668b593ab735c58927d564280e1.jpg);
+
+}
+#img9{
+    background-image: url(https://media.craiyon.com/2025-07-31/bbbPKtAIS128tAwnKxtnMg.webp);
+
+}
+#img10{
+    background-image: url(https://i.redd.it/6xkrfipujfyb1.jpg);
+}
+#img11{
+    background-image: url(https://staticg.sportskeeda.com/editor/2021/06/9002b-16238307008823-800.jpg);
+}
+#img12{
+    background-image: url(https://comicvine.gamespot.com/a/uploads/scale_small/11/114183/5207318-483dialga.png);
+}
